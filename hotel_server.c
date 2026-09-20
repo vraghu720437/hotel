@@ -66,7 +66,7 @@ static void ensure_data_dir(void){
 #endif
 }
 static void seed_rooms(void){
- Room seed[]={{101,"Single",900},{102,"Single",900},{201,"Double",1400},{202,"Double",1400},{301,"Deluxe",2200},{302,"Deluxe",2200},{401,"Suite",3500}};
+ Room seed[]={{101,"Single",1000},{102,"Single",1000},{201,"Double",1500},{202,"Double",1500},{301,"Deluxe",2300},{302,"Deluxe",2200},{401,"Suite",3600}};
  room_count=(int)(sizeof(seed)/sizeof(seed[0])); memcpy(rooms,seed,sizeof(seed));
 }
 static void load_data(void){
